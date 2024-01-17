@@ -1,0 +1,80 @@
+/* index.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+
+#root {
+  text-align: center;
+}
+/* LoginForm.css */
+
+/* Add this CSS to your stylesheet or in a style tag within your component */
+
+.login-form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  margin: auto;
+}
+
+.labelText {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.inputfilled {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.Loginbtn {
+  background-color: darkcyan;
+  color: #fff;
+  border: none;
+  padding: 10px 30px;
+  cursor: pointer;
+  color: #fff;
+  border: none;
+
+}
+
+.Loginbtn:hover {
+  background-color: darkcyan;
+}
+.user-details-container {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.submittedTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.submittedTable th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.submittedTable th {
+  background-color: #f2f2f2;
+}
